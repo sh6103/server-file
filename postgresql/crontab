@@ -1,0 +1,1 @@
+0 0 * * * /usr/bin/docker exec -i db_container bash -lc "/home/postgres/pg_backup_rotated.sh"
